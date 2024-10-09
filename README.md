@@ -8,7 +8,7 @@ Tive como foco aprimorar habilidades na implementação de um CRUD (Criação, L
  # Estrutura das Tabelas
 ```
 CREATE TABLE tb_filme (
-  id_filme  *INT PRIMARY KEY AUTO_INCREMENT*,
+  id_filme  INT PRIMARY KEY AUTO_INCREMENT,
   nm_filme  VARCHAR (200) NOT NULL,
   ds_sinopse  VARCHAR (4000) NOT NULL,
   vl_avaliacao  DECIMAL (15,2) NOT NULL,
