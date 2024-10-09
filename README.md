@@ -18,16 +18,6 @@ CREATE TABLE tb_filme (
   FOREIGN KEY (id_usuario) REFERENCES tb_usuario (id_usuario)
 );
 
-
-CREATE TABLE tb_lista_negra (
-    id_lista_negra INT AUTO_INCREMENT PRIMARY KEY,
-    nm_pessoa VARCHAR(100) NOT NULL,
-    ds_motivo TEXT NOT NULL,
-    dt_vinganca DATE NOT NULL,
-    nr_nota_odio INT NOT NULL,
-    bt_perdoado BOOLEAN NOT NULL
-);
-
 CREATE TABLE tb_usuario (
   id_usuario		INT PRIMARY KEY AUTO_INCREMENT,
   ds_email		  VARCHAR (255) NOT NULL,
@@ -37,6 +27,7 @@ CREATE TABLE tb_usuario (
 
  # Variáveis de Ambiente do Backend
  PORTA=5010
+oi
 
  MYSQL_HOST=localhost
  MYSQL_USER=root
