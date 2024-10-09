@@ -6,6 +6,7 @@ Tive como foco aprimorar habilidades na implementação de um CRUD (Criação, L
 
 
  # Estrutura das Tabelas
+```
 CREATE TABLE tb_filme (
   id_filme			  INT PRIMARY KEY AUTO_INCREMENT,
   nm_filme			  VARCHAR (200) NOT NULL,
@@ -23,7 +24,7 @@ CREATE TABLE tb_usuario (
   ds_email		  VARCHAR (255) NOT NULL,
   ds_senha 		  VARCHAR (255) NOT NULL
 );
-
+```
 
  # Variáveis de Ambiente do Backend
 ```
