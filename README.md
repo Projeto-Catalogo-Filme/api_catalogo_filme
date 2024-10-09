@@ -7,6 +7,9 @@ Tive como foco aprimorar habilidades na implementação de um CRUD (Criação, L
 
  # Estrutura das Tabelas
 ```
+CREATE DATABASE db_catalogo_filmes;
+USE db_catalogo_filmes;
+
 CREATE TABLE tb_filme (
   id_filme  INT PRIMARY KEY AUTO_INCREMENT,
   nm_filme  VARCHAR (200) NOT NULL,
@@ -33,5 +36,5 @@ PORTA=5010
 MYSQL_HOST=localhost
 MYSQL_USER=root
 MYSQL_PWD=password
-MYSQL_DB=db_karina
+MYSQL_DB=db_catalogo_filmes
 ```
