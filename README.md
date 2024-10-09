@@ -26,7 +26,7 @@ CREATE TABLE tb_usuario (
 );
 ```
 
- # Variáveis de Ambiente do Backend
+ # Variáveis de Ambiente da API
 ```
 PORTA=5010
 
