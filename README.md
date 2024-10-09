@@ -26,10 +26,9 @@ CREATE TABLE tb_usuario (
 
 
  # Variáveis de Ambiente do Backend
- PORTA=5010
-oi
+PORTA=5010
 
- MYSQL_HOST=localhost
- MYSQL_USER=root
- MYSQL_PWD=password
- MYSQL_DB=database
+MYSQL_HOST=localhost
+MYSQL_USER=root
+MYSQL_PWD=password
+MYSQL_DB=database
